@@ -1,0 +1,73 @@
+/*******************************************Crousel*****************************************/
+.carouselBox {
+    background-color: #f0eeed;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  }
+  /*************************************Crousel******Image************************************/
+  
+  .crouselDiv {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+  
+    text-align: center;
+  }
+  #imgDisp {
+    height: 250px;
+    width: 250px;
+    margin-top: 30px;
+  }
+  
+  /************************************Crousel***********Arrow**********************************/
+  .crouselArrowDiv {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+  }
+  .crouselArrow {
+    background-color: #f0eeed;
+    color: #609ea2;
+    text-decoration: solid;
+    border-color: #609ea2;
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+    text-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+    transition-property: all;
+    transition-duration: 0.5s;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  .crouselReset {
+    background-color: #f0eeed;
+    color: #609ea2;
+    text-decoration: solid;
+    border-color: #609ea2;
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+    text-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+    transition-property: all;
+    transition-duration: 0.5s;
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  .crouselArrow:hover {
+    background-color: #aeacab;
+    color: black;
+    text-decoration: solid;
+    transform: scale(1.1);
+  }
+  

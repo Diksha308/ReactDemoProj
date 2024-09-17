@@ -1,0 +1,135 @@
+/*******************************************BODY***************************************************/
+.body-style {
+  background-color: #c5edef;
+  margin: 0px;
+}
+/*******************************************Header***************************************************/
+.headerPart {
+  background-color: #609ea2;
+  height: 200px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.heading {
+  color: #223839;
+  text-shadow: 2px 2px 5px #3d6466;
+  margin: 0px;
+  text-align: center;
+  font-size: 70px;
+}
+img {
+  position: relative;
+  top: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+/*****************************************Navigation Bar*************************************************/
+.nav-bar {
+  position: relative;
+  background-color: #f0eeed;
+  height: 50px;
+  top: 15px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.nav-bar ul {
+  list-style-type: none;
+  padding-top: 5px;
+  margin: 0px;
+  display: contents;
+}
+.nav-bar ul li {
+  float: left;
+  margin-left: 40px;
+  margin-top: 7px;
+}
+.nav-bar ul li input {
+  /* display: block; */
+  padding: 10px;
+  color: #000;
+  font-weight: bold;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-shadow: 1px 1px rgb(240, 239, 253);
+  border-style: none;
+  border-radius: 5px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  text-shadow: 1px 1px rgb(240, 239, 253);
+}
+
+.nav-bar ul li input:hover {
+  background-color: #aeacab;
+  color: black;
+  text-decoration: solid;
+  transform: scale(1.1);
+}
+.nav-bar ul li input.active-page {
+  background-color: #aeacab;
+  color: black;
+}
+/*************************************All**Page**Buttons***************************************************/
+.JS_Projects {
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  display: inline-block;
+  text-align: left;
+  padding: 0px;
+}
+ul li {
+  float: left;
+  margin: 30px;
+}
+.projectsBTN {
+  background-color: #f0eeed;
+  color: #609ea2;
+  border-color: #609ea2;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  transition-property: all;
+  transition-duration: 0.5s;
+  height: 250px;
+  width: 250px;
+  font-size: 30px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.projectsBTN:hover {
+  background-color: #aeacab;
+  color: black;
+  text-decoration: solid;
+  transform: scale(1.1);
+}
+/*************************************Portal***************************************************/
+
+.portal {
+  position: fixed;
+  color: #609ea2;
+  margin-top: 10px;
+  left: 500px;
+  top: 500px;
+  width: 30%;
+  height: 150px;
+  border-color: black;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.portal label {
+  
+  font-size: 30px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin-left: 30%;
+  margin-top: 20px;
+}
+.portal input {
+  
+  margin-left: 30%;
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+

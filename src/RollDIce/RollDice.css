@@ -1,0 +1,61 @@
+/*******************************************Dice*****************************************/
+.DiceBox {
+   
+    height: 400px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+  }
+  /*************************************Dice******Image************************************/
+  /*******************************************Dice*****************************************/
+.ImgBox {
+    background-color: #f0eeed;
+    height: 200px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  }
+  /*************************************Dice******Image************************************/
+  .FirstDice {
+    float: left;
+    width: 50%;
+    border: 0px solid;
+    text-align: center;
+  }
+  .SecondDice {
+    
+    border: 0px solid;
+    width: 50%;
+    float: right;
+  }
+  /*************************************Roll******Button************************************/
+  .RollButtonDiv {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+  }
+  .RollButton {
+    background-color: #f0eeed;
+    color: #609ea2;
+    text-decoration: solid;
+    border-color: #609ea2;
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+    text-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+    transition-property: all;
+    transition-duration: 0.5s;
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  .RollButton:hover {
+    background-color: #aeacab;
+    color: black;
+    text-decoration: solid;
+    transform: scale(1.1);
+  }
