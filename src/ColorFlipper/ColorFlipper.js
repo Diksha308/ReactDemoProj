@@ -7,7 +7,7 @@ import NavBar from "../AllPages/NavBar";
     <NavBar pageVal="ColorFipper"></NavBar>
         <div>
         
-        <h1>Color Flipper Ka paage hu main</h1>;
+        <h1>Color Flipper Page</h1>;
         </div>
         </div> )
       };

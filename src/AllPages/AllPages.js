@@ -9,6 +9,7 @@ import "../StylePages/All_RJS_Projects.css";
 const allPages = () => {
   return (
     <>
+    
       <div>
         <div className="headerPart">
           <p className="heading">
@@ -18,6 +19,26 @@ const allPages = () => {
         </div>
         <div className="aa">
           <ul>
+          <li>
+              <Link to="/serverCRUD">
+                <input type="button" value="Server CRUD" className="projectsBTN" />
+              </Link>
+            </li> 
+            <li>
+              <Link to="/ValidatorApp">
+                <input type="button" value="Validator" className="projectsBTN" />
+              </Link>
+            </li> 
+            <li>
+              <Link to="/CrudApp">
+                <input type="button" value="CRUD" className="projectsBTN" />
+              </Link>
+            </li> 
+          <li>
+              <Link to="/RollDiceApp">
+                <input type="button" value="Roll Dice" className="projectsBTN" />
+              </Link>
+            </li> 
           <li>
               <Link to="/Carousel">
                 <input type="button" value="Carousel" className="projectsBTN" />
@@ -37,26 +58,14 @@ const allPages = () => {
               <Link to="/ColorFipper">
                 <input type="button" value="ColorFipper" className="projectsBTN" />
               </Link>
-            </li> 
-            <li>
-              <Link to="/CrudApp">
-                <input type="button" value="CRUD" className="projectsBTN" />
-              </Link>
-            </li> 
-            <li>
-              <Link to="/ValidatorApp">
-                <input type="button" value="Validator" className="projectsBTN" />
-              </Link>
-            </li> 
-            <li>
-              <Link to="/RollDiceApp">
-                <input type="button" value="Roll Dice" className="projectsBTN" />
-              </Link>
-            </li> 
+            </li>
+            
+           
           </ul>
         </div>
       </div>
       <Outlet />
+    
     </>
   );
 };

@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import NavBar from '../AllPages/NavBar';
 import dice3 from './Images/Dice3.png'
@@ -15,6 +16,7 @@ function RollDice(props) {
     return (
         <>
             <NavBar pageVal="Counter"></NavBar>
+          
             <div className='DiceBox'>
             <br/>
             <br/>

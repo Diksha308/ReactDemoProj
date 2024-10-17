@@ -1,0 +1,30 @@
+.Userbtn {
+    background-color: #f0eeed;
+    color: #609ea2;
+    text-decoration: solid;
+    border-color: #609ea2;
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+    text-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+    transition-property: all;
+    transition-duration: 0.5s;
+    height: 50px;
+    width: 210px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  .GetUser {
+    background-color: #f0eeed;
+    width: 450px;
+    margin: auto;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  
+  }
+  .FormDiv{
+   text-align: center;
+    
+  }
