@@ -9,7 +9,7 @@ function UserIdData(props) {
 
     let api = " "
     if(props.id)
-        api= "http://localhost:8000/users/" + props.id + " "
+        api= process.env.REACT_APP_SERVER_URL+ "users/" + props.id + " "
    
     useEffect(() => {
         console.log(api)

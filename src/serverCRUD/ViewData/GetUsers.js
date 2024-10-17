@@ -8,7 +8,7 @@ function GetUsers() {
 
    
     useEffect(() => {
-      fetch("http://localhost:8000/users")
+      fetch(process.env.REACT_APP_SERVER_URL+ "users")
       .then(response => response.json())
       .then(data => DataFunc(data))
       .then(console.log(userData))

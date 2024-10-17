@@ -19,8 +19,6 @@ function AddUser(props) {
     function UserInfo(e){
         e.preventDefault()
         console.log(Name +" "+Gender +" "+Email+" "+Pass);
-     
-        
         (!validator.isEmpty(Name)) ? updNameValid("none") : updNameValid("block")
         validator.isStrongPassword(Pass) ? updPassValid("none"): updPassValid("block")
         validator.isEmail(Email) ? updEmailValid("none") : updEmailValid("block")
